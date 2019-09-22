@@ -34,15 +34,3 @@ main {
 .strong-text {
     font-weight: bold;
 }
-
-/* pseudo-elements */
-header::after {
-    position: absolute;
-    content: "";
-    height: 2px;
-    background-color: #000;
-    width: 525px;
-    margin-left: 15px;
-    top: 300px;
-    clear: both;
-}
