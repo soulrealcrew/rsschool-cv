@@ -1,0 +1,48 @@
+body {
+    background-color: #B8DBD9;
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+main {
+    margin-top: 80px;
+}
+
+
+/* classes */
+.header-text {
+    font-weight: 700;
+    font-size: 2em;
+}
+.wrap {
+    background-color: #fff;
+    max-width: 1024px;
+    height: 900px;
+    margin: 0 auto;
+}
+.main-wrap {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 auto;
+    width: fit-content;
+}
+.strong-text {
+    font-weight: bold;
+}
+
+/* pseudo-elements */
+header::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #000;
+    width: 525px;
+    margin-left: 15px;
+    top: 300px;
+    clear: both;
+}
